@@ -65,7 +65,7 @@ a.anchor { display: block; position: relative; top: -250px; visibility: hidden; 
 .nav li	{ padding: 0; margin: 0; line-height: 1.8em; font-family: Arial, Helvetica, sans-serif; font-size: 20px; }
 div.backtotop { display: none; }
 .section { position:relative; margin-top: 6em; z-index: 1; }
-.section_header { position:relative; padding-top: 16em; z-index: 1; background-size: cover; background-image: url('images/img3.jpg');
+.section_header { position:relative; padding-top: 16em; z-index: 1; background-size: cover; background-image: url('images/cover.jpg');
 		  margin-left: auto; margin-right: auto; }
 .section_first { position:relative; margin-top: 2em; z-index: 1; }	
 .row { margin-right: -20px; margin-left: -20px; }
