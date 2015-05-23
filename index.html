@@ -1,8 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
-	<!--*************************************************************************************-->
-	<!--Page Head-->
-	<!--*************************************************************************************-->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -14,9 +11,6 @@
 		<title>Giorgos Kappes</title>
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	</head>
-	<!--*************************************************************************************-->
-	<!--Page Body-->
-	<!--*************************************************************************************-->	
 	<body>
 		<!--*************************************************************************************-->
 		<!--Header Container-->
@@ -102,19 +96,19 @@
 							</p>
 							<p class="small_text" style="text-align:right">
 								<a href="https://github.com/geokapp">
-									<img src="images/github.png" style="width:25px;height:25px" alt="Github"/>
+									<img src="images/github.png"  alt="Github"/>
 								</a>
 								<a href="https://www.linkedin.com/profile/view?id=96937605">
-									<img src="images/linkedin.png" style="width:25px;height:25px" alt="Linkedin"/>
+									<img src="images/linkedin.png" alt="Linkedin"/>
 								</a>
 								<a href="https://twitter.com/geokapp">
-									<img src="images/twitter.png" style="width:25px;height:25px" alt="Twitter"/>
+									<img src="images/twitter.png" alt="Twitter"/>
 								</a>
 								<a href="https://plus.google.com/u/0/+GiorgosKappes">
-									<img src="images/gplus.png" style="width:25px;height:25px" alt="Google+"/>
+									<img src="images/gplus.png" alt="Google+"/>
 								</a>
 								<a href="https://www.facebook.com/giorgos.kappes">
-									<img src="images/facebook.png" style="width:25px;height:25px" alt="Facebook"/>
+									<img src="images/facebook.png" alt="Facebook"/>
 								</a>
 							</p>
 						</div>
@@ -130,12 +124,12 @@
 						<div class="col_c">
 							<div class="backtotop"><a href="#top" class="smoothScroll"><span>back to top</span></a></div>
 							<h3> Research</h3> 
-								<p class="medium_text"> 
-									My main research interests lie in the fields of virtualization, file and 
-									storage systems, as well as security and privacy. However, I am interested 
-									in pretty much everything to do with computer systems.
-									Following are some of the projects that I have worked on:
-								</p>
+							<p class="medium_text"> 
+								My main research interests lie in the fields of virtualization, file and 
+								storage systems, as well as security and privacy. However, I am interested 
+								in pretty much everything to do with computer systems.
+								Following are some of the projects that I have worked on:
+							</p>
 						</div>
 						<div class="col_l">
 							<p class="small_text">
@@ -190,22 +184,20 @@
 						<div class="col_c">
 							<div class="backtotop"><a href="#top" class="smoothScroll"><span>back to top</span></a></div>
 							<h3> Publications and Talks</h3> 
-								<p class="medium_text"> 
-									Following is a list of my recent publications and invited talks:
-								</p>
+							<p class="medium_text"> 
+								Following is a list of my recent publications and invited talks:
+							</p>
 						</div>
 						<div class="col_c">
 							<h4> Conference Papers </h4>
-
 							<ul class="small_text">
-
-							<li> 	Giorgos Kappes, Andromachi Hatzieleftheriou, Stergios V. Anastasiadis, 
-								Virtualization-aware Access Control for Multitenant Filesystems, <b> IEEE 
-								International Conference on Massive Storage Systems and Technology (MSST)</b>, 
-								Santa Clara, CA, USA, June 2014.
-								(<a href="http://www.storageconference.us/2014/Papers/10.Virtualization.pdf">Paper</a>,
-								<a href="files/Kappes_msst.pdf"> Presentation</a>).<br />
-							</li>
+								<li> 	Giorgos Kappes, Andromachi Hatzieleftheriou, Stergios V. Anastasiadis, 
+									Virtualization-aware Access Control for Multitenant Filesystems, <b> IEEE 
+									International Conference on Massive Storage Systems and Technology (MSST)</b>, 
+									Santa Clara, CA, USA, June 2014.
+									(<a href="http://www.storageconference.us/2014/Papers/10.Virtualization.pdf">Paper</a>,
+									<a href="files/Kappes_msst.pdf"> Presentation</a>).<br />
+								</li>
 							</ul>
 							<h4> Technical Reports </h4>
 							<ul class="small_text">
@@ -214,20 +206,6 @@
 									<b> Technical Report DCS2013-1, Department of Computer Science, University 
 									of Ioannina</b>, February 2013. 
 									<a href="http://srg.cs.uoi.gr/pdf/tr-dcs-2013-1.pdf">(Paper)</a>.<br />
-									<hr />
-									<p class="small_text" style="margin-top:0em"> <i>In a virtualization environment that
-									serves multiple customers (or tenants), storage consolidation at the filesystem
-									level is desirable because it enables data sharing, administration efficiency,
-									and performance optimization. 
-									Today the scalable deployment of filesystems in such environments is challenging
-									due to intermediate translation layers required for purposes of networked file
-									access or identity management. First we analyze the security requirements in
-									multi-tenant filesystems. Then we introduce the Dike authorization architecture,
-									which combines native access control with tenant namespace isolation that is
-									backwards compatible to object-based filesystems. We experimentally evaluate a
-									prototype implementation that we developed, and show that our solution incurs
-									limited added performance overhead. </i>
-									</p><hr />
 								</li>  			
 							</ul> 
 							<h4> Master's Thesis </h4>
@@ -331,13 +309,13 @@
 						<div class="col_r">
 							<p class="small_text">
 								<b>Root over NFS on User Mode Linux.</b>
-									The root file system of a UML guest can be stored on a disk image in the host system, 
-									on a disk partition of the host system or in a directory hierarchy in the host system 
-									which can be exported to the client via humfs or NFS. This guide follows the last approach. 
-									More specifically, the root file system for the UML guest will be located on an exported 
-									directory hierarchy stored in a NFS server. This server could be the host system, a remote 
-									machine or even another UML guest. Our goal is the UML client to mount this exported directory 
-									hierarchy as its root file system via NFS <a href="files/tutorials/root_nfs.pdf">[pdf]</a>.
+								The root file system of a UML guest can be stored on a disk image in the host system, 
+								on a disk partition of the host system or in a directory hierarchy in the host system 
+								which can be exported to the client via humfs or NFS. This guide follows the last approach. 
+								More specifically, the root file system for the UML guest will be located on an exported 
+								directory hierarchy stored in a NFS server. This server could be the host system, a remote 
+								machine or even another UML guest. Our goal is the UML client to mount this exported directory 
+								hierarchy as its root file system via NFS <a href="files/tutorials/root_nfs.pdf">[pdf]</a>.
 							</p>
 						</div>
 						<div class="col_c">
@@ -346,11 +324,11 @@
 						<div class="col_c">
 							<p class="small_text">
 								<b>NFS v4 Installation Guide.</b>
-									In this guide we will try to explain how to build and setup an NFSv4 server and how to 
-									configure it in order to export a file system for the clients. Furthermore we will see how to
-									setup an NFS client and how to mount an exported file system 
-									<a href="files/tutorials/nfs_installation.pdf">[pdf]</a>.
-									<br />We have included below some useful configuration files and init scripts:
+								In this guide we will try to explain how to build and setup an NFSv4 server and how to 
+								configure it in order to export a file system for the clients. Furthermore we will see how to
+								setup an NFS client and how to mount an exported file system 
+								<a href="files/tutorials/nfs_installation.pdf">[pdf]</a>.
+								<br />We have included below some useful configuration files and init scripts:
 							</p>
 							<ol class="small_text">
 								<li><a href="files/nfs/nfs-kernel-server.default"> nfs-kernel-server.default </a></li>
@@ -367,29 +345,28 @@
 						<div class="col_l">
 							<p class="small_text">
 								<b>ssh. </b>
-									A step by step guide to teach you how to use ssh. ssh (Secure Shell) is a secure 
-									network protocol that allows data transfer between two computers. The ssh not only 
-									encrypts the data exchanged during the session, but it offers a secure identification 
-									system and other features such as secure file transfer
-									<a href="files/tutorials/ssh.pdf">[pdf in Greek]</a>.
+								A step by step guide to teach you how to use ssh. ssh (Secure Shell) is a secure 
+								network protocol that allows data transfer between two computers. The ssh not only 
+								encrypts the data exchanged during the session, but it offers a secure identification 
+								system and other features such as secure file transfer
+								<a href="files/tutorials/ssh.pdf">[pdf in Greek]</a>.
                                         		</p>											
 							<p class="small_text">
 								<b>nmap. </b>
-									A step by step guide to teach you how to use nmap. nmap is a network analyzer. It was 
-									designed to monitor large networks, but works perfectly against a single host
-									<a href="files/tutorials/nmap.pdf">[pdf in Greek]</a>.
+								A step by step guide to teach you how to use nmap. nmap is a network analyzer. It was 
+								designed to monitor large networks, but works perfectly against a single host
+								<a href="files/tutorials/nmap.pdf">[pdf in Greek]</a>.
                                         		</p>												
 						</div>
 						<div class="col_r">
 							<p class="small_text">
 								<b>aircrack-ng. </b>
-									In this tutorial we will show you how to use the aircrack-ng suite in order to audit
-									your wireless network. The tutorial begins with a brief introduction to the basic principles 
-									of 802.11 networks and continues with an analysis of the WEP algorithm and its several serious
-									weaknesses which were identified by cryptanalysts 
-									<a href="files/tutorials/aircrack_guide.pdf">[pdf in Greek]</a>.
+								In this tutorial we will show you how to use the aircrack-ng suite in order to audit
+								your wireless network. The tutorial begins with a brief introduction to the basic principles 
+								of 802.11 networks and continues with an analysis of the WEP algorithm and its several serious
+								weaknesses which were identified by cryptanalysts 
+								<a href="files/tutorials/aircrack_guide.pdf">[pdf in Greek]</a>.
 							</p>
-
 						</div>						
 						<div class="col_c">
 							<h4> Programming </h4>
@@ -397,21 +374,20 @@
 						<div class="col_l">
 							<p class="small_text">
 								<b>MPI's one-sided communication model.</b>
-									In this guide we briefly describe the main features of MPI's one-sided communications.
-									They are designed to enable easy and efficient remote memory access and to provide 
-									higher performance in comparison to the model of point-to-point communications
-									<a href="files/tutorials/mpi_onesided.pdf">[pdf in Greek]</a>.
+								In this guide we briefly describe the main features of MPI's one-sided communications.
+								They are designed to enable easy and efficient remote memory access and to provide 
+								higher performance in comparison to the model of point-to-point communications
+								<a href="files/tutorials/mpi_onesided.pdf">[pdf in Greek]</a>.
 							</p>						
 						</div>
 						<div class="col_r">
 							<p class="small_text">
 								<b>RAW Sockets.</b>
-									In this tutorial we briefly describe the Raw Sockets API. The Raw Sockets allow us 
-									to access and modify the header of a network packet. Raw sockets can be used to hide 
-									or spoof the attacker's source IP address during a Denial of Service (DoS) Attack
-									<a href="files/tutorials/raw_sockets.pdf">[pdf in Greek]</a>.
-                                        		</p>	
-
+								In this tutorial we briefly describe the Raw Sockets API. The Raw Sockets allow us 
+								to access and modify the header of a network packet. Raw sockets can be used to hide 
+								or spoof the attacker's source IP address during a Denial of Service (DoS) Attack
+								<a href="files/tutorials/raw_sockets.pdf">[pdf in Greek]</a>.
+                                        		</p>
 						</div>
 					</div>
 				</div>	
@@ -471,15 +447,11 @@
 						<img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0!" height="31" width="88" />
 					</a>
 					<a href="http://jigsaw.w3.org/css-validator/check/referer">
-					<img style="border:0;width:88px;height:31px"
-						src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-						alt="Valid CSS!" />
+						<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
 					</a>
 			
 					<a href="http://statcounter.com">
-					<img style="border:0;width:88px;height:31px"
-						src="images/t.png"
-						alt="Stat Counter" />
+						<img src="images/t.png" alt="Stat Counter" />
 					</a>
 				</p>
 			</div>
@@ -487,19 +459,12 @@
 		<!--*************************************************************************************-->
 		<!--Page Scripts -->
 		<!--*************************************************************************************-->
-				
-		<!-- Start of smooth scrolling scripts --> 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 		<!-- Start of StatCounter Code -->
 		<script type="text/javascript">
 			var sc_project=7252688; 
 			var sc_invisible=1; 
 			var sc_security="fa35d55f"; 
 		</script>
-		<!-- End of smooth scrolling scripts -->
-		
-		<!-- Start of StatCounter Code -->  
 		<script type="text/javascript"
 			src="http://www.statcounter.com/counter/counter_xhtml.js">
 		</script>
@@ -512,7 +477,6 @@
 			alt="statistics in vBulletin" /></a></div>
 		</noscript>
 		<!-- End of StatCounter Code --> 
-		
 		<!-- Start of Google Analytics Code -->
 		<script type="text/javascript">
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -524,5 +488,9 @@
 			ga('send', 'pageview');
 		</script>
 		<!-- End of Google Analytics Code -->
+		<!-- Start of smooth scrolling scripts --> 
+		<script type="text/javascript" src="javascript/jquery.min.js"></script>		
+		<script type="text/javascript" src= "javascript/smoothscroll.js"></script>
+		<!-- End of smooth scrolling scripts -->
 	</body>
 </html>
