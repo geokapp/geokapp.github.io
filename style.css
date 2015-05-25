@@ -49,7 +49,7 @@ a.anchor { display: block; position: relative; top: -250px; visibility: hidden; 
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=96)"; overflow:hidden; z-index: 10; border-bottom: solid 2px #2A4E6C; }
 .headlogo { position:relative; width:30%; float: left; text-align:center; margin:0 auto; padding-left: 0.3em; }
 .logo_container	{ position: relative; width: 960px; height: 200px; z-index: 1; margin-left: auto; margin-right: auto; }
-.logo_image { position: relative; z-index: 1; height: 200px; width: 200px; background-image: url('images/me_sf_bw.png'); float: left;
+.logo_image { position: relative; z-index: 1; height: 200px; width: 200px; background-image: url('images/me_sf_bw.jpg'); float: left;
 	text-align:center; margin:0 auto; }
 .logo_image_second { position: relative; float:left; z-index: 1; height: 180px; width: 740px; background-color:#4682B4; padding:10px; }
 .logo_image_third { display:none; }
