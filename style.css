@@ -90,6 +90,7 @@ dt { font-size: 1.2em; font-weight: bold; text-transform: uppercase; }
 dl#email dd, dl#phone dd { letter-spacing: -0.039em; line-height: 1.2em; margin-top: 1.4286em; }
 dl#address dd { line-height: 1.2em; margin-top: 1.4286em; margin-bottom: 0em; }
 img {  border: 0; -ms-interpolation-mode: bicubic; max-width:100%; height: auto; }
+img.footer-img {  padding: 5px;}
 ul, ol, li { margin-left: 20px; }
 p, ul, ol, dl, pre, code { font-size: 1.4em; line-height: 1.4286em; margin-top: 1.4286em; margin-bottom: 0em; }
 p.large_text, ul.large_text, ol.large_text, dl.large_text { font-family: Georgia, "Times New Roman", Times, serif; font-size: 2.2em; 
