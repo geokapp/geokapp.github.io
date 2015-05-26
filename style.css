@@ -129,6 +129,7 @@ h3.profile { padding-left: 10px; }
 .container_main { width: 90%; }
 .header	{  position: static; padding-top: 1em; padding-bottom: 0; background-image:none; border-bottom: solid 1px #fff; }
 .logo_container	{ width: 100%; }
+.section_header { position:relative; margin-top: 0; padding-top:0; z-index: 1; background-image:none; }
 .logo_image { display:none; }
 .logo_image_second { position: relative; float:left; z-index: 1; height:auto; width: 100%; background-color:#4682B4; padding:0; }
 .logo_image_third { display: block; position: relative; z-index: 1; height: 200px; width: 200px; background-image: url('images/me_sf_bw.jpg'); 
