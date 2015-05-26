@@ -110,7 +110,7 @@ h2.profile { font-size: 20px; }
 h3.profile { line-height: 24px; font-size: 16px; }	
 header { width: 720px; }
 .container_main	{ width: 720px; position: relative; }
-.logo_container	{ width: 100%; }
+.logo_container	{ min-width: 768px; }
 .logo_image_second { width: 536px; }
 .logo_image_third { display:none; }
 .logo_image_fourth { display:none; }			
