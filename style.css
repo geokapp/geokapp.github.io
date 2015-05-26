@@ -132,8 +132,8 @@ h3.profile { padding-left: 10px; }
 .section_header { position:relative; margin-top: 0; padding-top:0; z-index: 1; background-image:none; }
 .logo_image { display:none; }
 .logo_image_second { position: relative; float:left; z-index: 1; height:auto; width: 100%; background-color:#4682B4; padding:0; }
-.logo_image_third { display: block; position: relative; margin-top: 50px; z-index: 1; height: 150px; width: 150px; background-image: url('images/me_sf_bw.jpg'); 
-	float: left; text-align:center; margin-left: 10px; box-shadow: 10px 0px 60px 0px rgba(0,0,0,0.6);}
+.logo_image_third { display: block; position: relative; margin-top: 50px; z-index: 1; height: 150px; width: 150px; background-image: url('images/me_sf_bw_small.jpg'); 
+	float: left; text-align:center; margin-left: 10px; box-shadow: 10px 0px 60px 0px rgba(0,0,0,0.6); border-radius: 15px; -webkit-border-radius: 15px; }
 .logo_image_fourth { display: block; position: relative; float:left; z-index: 1; height:200px; width:100%; background-size: cover; background-image: url('images/cover.jpg');
 	border-bottom: solid 2px #2A4E6C; margin:0 auto; overflow:hidden; }
 .nav { position: relative; min-height: 40px; width: 100%; }	
