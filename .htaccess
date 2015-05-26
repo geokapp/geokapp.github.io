@@ -38,6 +38,9 @@
   <filesMatch ".(x?html?|php)$">
     Header set Cache-Control "max-age=600, private, must-revalidate"
   </filesMatch>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
 </ifModule>
 # END Cache-Control Headers
  
