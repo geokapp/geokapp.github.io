@@ -134,7 +134,7 @@ h3.profile { padding-left: 10px; }
 .logo_image_second { position: relative; float:left; z-index: 1; height:auto; width: 100%; background-color:#4682B4; padding:0; }
 .logo_image_third { display: block; position: relative; z-index: 1; height: 200px; width: 200px; background-image: url('images/me_sf_bw.jpg'); 
 	float: left; text-align:center; margin-left: 10px; }
-.logo_image_fourth { display: block; position: relative; float:left; z-index: 1; height:200px; width:100%; background-color:#4682B4;
+.logo_image_fourth { display: block; position: relative; float:left; z-index: 1; height:200px; width:100%; background-size: cover; background-image: url('images/cover.jpg');
 	border-bottom: solid 2px #2A4E6C; margin:0 auto; overflow:hidden; }
 .nav { position: relative; min-height: 40px; width: 100%; }	
 .nav ul { width: 80px; min-height: 40px; padding: 8px 0; background: #4682B4 url(images/menu.png) no-repeat; float: left; margin-left: 10px; }
