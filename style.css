@@ -70,14 +70,14 @@ div.backtotop { display: none; }
 .col_r { position: relative; min-height: 1px; padding-left: 20px; float: left; width:47%; text-align: justify; }
 .cleared { float: none; clear: both; margin: 0; padding: 0; border: none; font-size:1px; }
 .footer	{ width:100%; margin-top:60px; position:relative; text-align:center; border-top: solid 3px #111; background-color: #333;}
-dl { font-size: 1em; line-height: 2em; float: left; border: solid 1px #bbb; border-right: none; margin: 1em 0 0 0; height: 10em; 
+dl { font-size: 1em; line-height: 2em; float: left; border: solid 1px #bbb; border-right: none; margin: 1em 0 0 0; height: 13em; 
 	padding-top: 1em; text-align: center; background-color: #fff; }
 dl#email { width: 31.4%; }
 dl#phone { width: 29.4%; }
 dl#address { width: 38.6%; border-right: solid 1px #bbb; }
-dt { font-size: 1.2em; font-weight: bold; text-transform: uppercase; }
-dl#email dd, dl#phone dd { letter-spacing: -0.039em; line-height: 1.2em; margin-top: 1.4286em; }
-dl#address dd { line-height: 1.2em; margin-top: 1.4286em; margin-bottom: 0em; }
+dt { font-size: 1.2em; font-weight: bold; text-transform: uppercase; margin-bottom: 1.4em; }
+dl#email dd, dl#phone dd { letter-spacing: -0.039em; line-height: 1.2em; margin-top: 0.5em; }
+dl#address dd { line-height: 1.2em; margin-top: 0.5em; margin-bottom: 0em; }
 img {  border: 0; -ms-interpolation-mode: bicubic; max-width:100%; height: auto; }
 ul, ol, li { margin-left: 20px; }
 p, ul, ol, dl, pre, code { font-size: 1.4em; line-height: 1.4286em; margin-top: 1.4286em; margin-bottom: 0em; }
@@ -133,7 +133,7 @@ dl.small_text { margin-top: 0em; line-height: 1.2em;}
 dl#email { margin-top: 1em; }
 dl#address { border-bottom: solid 1px #bbb; }
 dl#email, dl#phone, dl#address { width: 95.5%; padding-left: 3%; }
-dt { float: left; width: 22%; padding-right: 3%; font-size: 1.0em; }
-dd { margin-left: 30%; }
+dt { float: left; width: 22%; padding-right: 3%; font-size: 1.0em; margin-bottom: 0;}
+dd { margin-left: 30%; margin-bottom: 0.5em; }
 dl#email dd, dl#phone dd, dl#address dd { margin-top: 0; }	
 }
