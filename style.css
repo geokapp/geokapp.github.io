@@ -117,7 +117,7 @@ h1.subheadertext { font-size: 18px; text-align: center;}
 	margin: 0 auto; overflow: hidden; }
 .nav li { display: none; margin: 0; text-align: center; float: none; }
 .nav a { display: block;  text-align: center; }
-.nav ul:hover { background-image: none; padding-top:20px; width: 100%; }
+.nav ul:hover { background: #555 url(images/menu-hover.png) no-repeat; padding-top:60px; width: 100%; background-position: top center; }
 .nav ul:hover li { display: block; margin: 0 0 2px; border-left: none; }
 .container_main { width: 90%; z-index: 1; }
 a.anchor { display: block; position: relative; top: -40px; visibility: hidden; }
