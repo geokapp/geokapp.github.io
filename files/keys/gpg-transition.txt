@@ -1,0 +1,33 @@
+I have recently created a new GPG key [3] with multiple subkeys by following the Debian 
+guide [1] and will be transitioning away from my old master key.
+
+My old master key [2] will continue to be valid for some time, but I prefer all future 
+correspondence to come to the new one. Finally, I have revoked my separate email and 
+sign keys (C3F62D70, 574E4AE1, 09002CEE, C9FB7C4E).
+
+This message is signed by both keys to certify transition. 
+
+[1] https://wiki.debian.org/Subkeys?action=show&redirect=subkeys
+
+[2] My old key:
+
+pub   4096R/F47D5746 2015-07-25
+uid                  Giorgos Kappes (Master Signing Key)
+Key fingerprint = A7AA 10B4 91EF 45E7 CB24  3184 48D4 F773 F47D 5746
+
+[3] My new key:
+
+pub   4096R/88507AE1 2015-11-23
+uid                  Giorgos Kappes (born 2015-03-18 in Ioannina, Greece)
+uid                  Giorgos Kappes <giorgos@giorgoskappes.com>
+uid                  Giorgos Kappes <gkappes@cs.uoi.gr>
+uid                  Giorgos Kappes <geokapp@gmail.com>
+uid                  Giorgos Kappes <gkappes@outlook.com>
+uid                  [jpeg image of size 3062]
+sub   4096R/51FF6833 2015-11-23
+sub   4096R/7AA44D27 2015-11-23
+Key fingerprint = C70D 8E03 0D01 DC99 4F00  8088 D614 E92E 8850 7AE1
+
+
+Giorgos Kappes
+
