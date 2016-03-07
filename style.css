@@ -42,14 +42,14 @@ a.footer_link:hover { text-decoration: underline; color: #fff; }
 a.anchor { display: block; position: relative; top: -250px; visibility: hidden; }
 .container_main	{ position: relative; z-index: 0; width: 960px; margin: 0 auto; }
 .header { position:relative;  z-index: 1; background-color: #333;
-	margin-left: auto; margin-right: auto; border-top: solid 2px #111; border-bottom: solid 2px #111; }
+	margin-left: auto; margin-right: auto; border-top: solid 2px #111; border-bottom: solid 1px #111; }
 .profile_container { margin: 0 auto; margin-bottom: 20px; padding:0; list-style: none; width: 972px; height: 140px; }	
 .profile_image { display: block; position: relative; margin-top: 30px; z-index: 1; height: 100px; width: 100px; 
 	background-image: url('images/me_sf_bw_small.jpg'); text-align:center; box-shadow: 20px 0px 60px 0px rgba(0,0,0,0.6); 
 	border-radius:30px; -webkit-border-radius: 30px;  float: left; }
 .profile_text { position: relative; height: 100px; margin-left: 150px; padding-top: 15px; }
 .nav-fixed { width: 100%; position: fixed; top: 0; left: 0; height: 33px;  margin: 0 auto;  background-color: #555;  
-	border-bottom: solid 2px #111;  overflow:hidden; z-index: 10; opacity:0.96; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=96)"; }     
+	border-bottom: solid 1px #111;  overflow:hidden; z-index: 10; opacity:0.96; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=96)"; }     
 .nav { width: 100%;  height: 33px; z-index: 10; margin: 0 auto;  background-color: #555; }
 .nav a,.nav-fixed a { text-decoration: none; color: #FFF; padding: 0 12px 0 12px; display: inline-block; }
 .nav a:visited,.nav-fixed a:visited	{ text-decoration: none; color: #fff; }
@@ -69,7 +69,7 @@ div.backtotop { display: none; }
 .col_l { position: relative; min-height: 1px; padding-left: 20px; padding-right: 0px; float: left; width:47%; text-align: justify; }
 .col_r { position: relative; min-height: 1px; padding-left: 20px; float: left; width:47%; text-align: justify; }
 .cleared { float: none; clear: both; margin: 0; padding: 0; border: none; font-size:1px; }
-.footer	{ width:100%; margin-top:60px; position:relative; text-align:center; border-top: solid 2px #111; background-color: #333;}
+.footer	{ width:100%; margin-top:60px; position:relative; text-align:center; border-top: solid 1px #111; background-color: #333;}
 dl { font-size: 1em; line-height: 2em; float: left; border: solid 1px #bbb; border-right: none; margin: 1em 0 0 0; height: 13em; 
 	padding-top: 1em; text-align: center; background-color: #fff; }
 dl#email { width: 31.4%; }
