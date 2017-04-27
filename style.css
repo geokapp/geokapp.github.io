@@ -45,7 +45,7 @@ a.anchor { display: block; position: relative; top: -250px; visibility: hidden; 
 	margin-left: auto; margin-right: auto; border-top: solid 2px #111; border-bottom: solid 1px #111; }
 .profile_container { margin: 0 auto; margin-bottom: 20px; padding:0; list-style: none; width: 972px; height: 140px; }	
 .profile_image { display: block; position: relative; margin-top: 30px; z-index: 1; height: 100px; width: 100px; 
-	background-image: url('images/me_sf_bw_small.jpg'); text-align:center; box-shadow: 20px 0px 60px 0px rgba(0,0,0,0.6); 
+	background-image: url('images/profile.jpg'); text-align:center; box-shadow: 20px 0px 60px 0px rgba(0,0,0,0.6); 
 	border-radius:30px; -webkit-border-radius: 30px;  float: left; }
 .profile_text { position: relative; height: 100px; margin-left: 150px; padding-top: 15px; }
 .nav-fixed { width: 100%; position: fixed; top: 0; left: 0; height: 33px;  margin: 0 auto;  background-color: #555;  
