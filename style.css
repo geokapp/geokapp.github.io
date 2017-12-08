@@ -41,7 +41,7 @@ a:hover, a.hover { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 a.footer_link:hover { text-decoration: underline; color: #fcfdff; }
 a.anchor { display: block; position: relative; top: -250px; visibility: hidden; }
 .container_odd { background-color: #fcfdff; }
-.container_even { background-color: #f2f3f5; }
+.container_even { background-color: #eff0f2; }
 .container_main	{ position: relative; z-index: 0; width: 960px; margin: 0 auto; padding-bottom:60px; padding-top:30px;}
 .header { position:relative;  z-index: 1; background-color: #292f36; border-top: solid 2px #292f36; margin-left: auto; margin-right: auto; }
 .profile_container { margin: 0 auto; margin-bottom: 20px; padding:0; list-style: none; width: 972px; height: 140px; }	
