@@ -115,15 +115,11 @@ h1.subheadertext { font-size: 18px; text-align: center;}
 .profile_image { margin-left: auto; margin-right: auto; margin-top: 10px; float: none; }
 .profile_text { height: auto; margin: 0; padding-top: 0; text-align: center; float: none;}
 .nav-fixed { display: none; }
-.nav { padding-top: 15px; height: auto; width: 100%; margin: 0 auto;  text-align: center;  }	
-
-.menuicon { margin: 0 auto; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width:30px; }
-.nav ul { width: 40px; min-height: 40px; height: auto; padding: 8px 0; float: none; 
-	margin: 0 auto; overflow: hidden; }
+.nav { padding-top: 15px; padding-bottom: 15px; height: auto; width: 100%; margin: 0 auto;  text-align: center; }
+.nav ul { margin: auto; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
 .nav li { display: none; margin: 0; text-align: center; float: none; }
 .nav a { display: block;  text-align: center; }
-.nav ul:hover { width: 100%; background-position: top center; }
-.nav ul:hover .menuicon { margin: 0 auto; border-bottom: 17px double #61dafb; border-top: 6px solid #61dafb; content:""; height: 5px; width:30px; margin-bottom: 20px; }
+.nav ul:hover { height: 100%; width: 100%; background-position: top center; border: none; }
 .nav ul:hover li { display: block; margin: 0 0 2px; border-left: none; }
 .container_main { width: 90%; z-index: 1; }
 a.anchor { display: block; position: relative; top: -40px; visibility: hidden; }
