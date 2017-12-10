@@ -55,7 +55,7 @@ a.anchor { display: block; position: relative; top: -250px; visibility: hidden; 
 .nav a,.nav-fixed a { text-decoration: none; color: #fcfdff; padding: 0 12px 0 12px; display: inline-block; }
 .nav a:visited,.nav-fixed a:visited	{ text-decoration: none; color: #fcfdff; }
 .nav a:hover,.nav-fixed a:hover { text-decoration: none; color: #292f36; background-color: #61dafb; border: none; }
-.menuicon { }
+.nav li.menubutton { display: none; } 
 .nav ul,.nav-fixed ul { margin: 0 auto; padding:0; list-style: none; width: 972px; }
 .nav li,.nav-fixed li { float: left; padding: 0; margin: 0; line-height: 1.8em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; }
 div.backtotop { display: none; }
@@ -100,7 +100,7 @@ p.tiny_text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margi
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 974px) {
 .profile_container { width: 720px;}	
-.menuicon { }
+.nav li.menubutton { display: none; } 
 .nav ul	{ width: 720px; }
 .nav a { padding: 0 6px 0 6px; }
 .container_main	{ width: 720px; position: relative; }
@@ -116,11 +116,13 @@ h1.subheadertext { font-size: 18px; text-align: center;}
 .profile_text { height: auto; margin: 0; padding-top: 0; text-align: center; float: none;}
 .nav-fixed { display: none; }
 .nav { padding-top: 15px; padding-bottom: 15px; height: auto; width: 100%; margin: 0 auto;  text-align: center; }
-.nav ul { margin: auto; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
+.nav ul { margin: auto; text-align: center; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
 .nav li { display: none; margin: 0; text-align: center; float: none; }
+.nav li.menubutton { display: none; } 
 .nav a { display: block;  text-align: center; }
 .nav ul:hover { height: 100%; width: 100%; background-position: top center; border: none; }
 .nav ul:hover li { display: block; margin: 0 0 2px; border-left: none; }
+.nav ul:hover li.menubutton { display: inline-block; border-bottom: 17px double #61dafb; border-top: 6px solid #61dafb; content:""; height: 5px; width: 35px; }
 .container_main { width: 90%; z-index: 1; }
 a.anchor { display: block; position: relative; top: -40px; visibility: hidden; }
 div.backtotop { display: block; float: right; }
