@@ -19,7 +19,7 @@ hr { display:block; height:2px; border:0; border-top:1px solid #fcfdff; margin:1
 input, select { vertical-align:middle; }
 
 /* PCs */
-html { overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: #61dafb; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { font-size: 100%; margin: 0 auto; padding: 0;  background-color: #fcfdff; }
 body, button, input, select, textarea	{ font-family: sans-serif; color: #292f36; }
 h1, h2, h3 { letter-spacing: -0.04em; }
