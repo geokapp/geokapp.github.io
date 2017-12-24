@@ -284,6 +284,7 @@
 	<br /><br />
       </p>
     </div>
+    <!-- Page client-side scripts -->	    
     <!-- StatCounter -->
     <script type="text/javascript">
       var sc_project=7252688;
@@ -301,8 +302,13 @@
     </noscript>
     <!-- Smooth scrolling -->
     <script type="text/javascript" src="javascript/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){$("a").on('click', function(event) {if (this.hash !== ""){event.preventDefault();var hash = this.hash;$('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){window.location.hash = hash;});}});});
+    </script>
+    
     <!-- Fixed nav bar -->
-    <script type="text/javascript" src="javascript/fixnav.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {var s = $("#nav");var pos = s.position();$(window).scroll(function() {var windowpos = $(window).scrollTop();if (windowpos >= pos.top) {s.removeClass("nav"); s.addClass("nav-fixed");} else {s.removeClass("nav-fixed");s.addClass("nav");}});});
+    </script>
   </body>
 </html>
