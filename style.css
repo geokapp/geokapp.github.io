@@ -1,4 +1,8 @@
-/* Color Scheme: 292f36, 3e78b2, 495867, 61dafb, fcfdff */
+/* 
+ * Copyright (c) 2013-2017 Giorgos Kappes <giorgos@giorgoskappes.com>  
+ * Color Scheme: 292f36, 3e78b2, 495867, 61dafb, fcfdff 
+ */
+
 /* Reset by html5doctor.com (Author: Richard Clark)-Reset Stylesheet v1.6.1 */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
@@ -29,7 +33,7 @@ h1 { line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0em; font-family: "He
 h2 { line-height: 1.3333em; margin-top: 0.6667em; margin-bottom: 0em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 2em; }
 h3 { margin-top: 0.9091em; margin-bottom: 0em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.8em; line-height: 1.8182em; }
 h4 { margin-top: 1.1111em; margin-bottom: 0em; padding-top: 5px; padding-bottom: 5px; border-bottom: solid 2px #3e78b2;
-     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.250em; line-height: 1.1111em; }
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.250em; line-height: 1.1111em; }
 a { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; color: #3e78b2; }
 a.footer_link { color: #fcfdff; }
 a:link { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; color: #3e78b2; }
@@ -45,10 +49,10 @@ a.anchor { display: block; position: relative; top: -250px; visibility: hidden; 
 .header { position:relative;  z-index: 1; margin-left: auto; margin-right: auto; background-color: #292f36; border-top: solid 2px #292f36; }
 .profile_container { margin: 0 auto; margin-bottom: 20px; padding:0; list-style: none; width: 972px; height: 140px; }
 .profile_image { display: block; position: relative; z-index: 1; float: left; margin-top: 30px; height: 100px; width: 100px;  background-image: url('images/profile.png'); text-align:center;
-		 box-shadow: 20px 0px 60px 0px rgba(0,0,0,0.6); border-radius:30px; -webkit-border-radius: 30px; }
+ box-shadow: 20px 0px 60px 0px rgba(0,0,0,0.6); border-radius:30px; -webkit-border-radius: 30px; }
 .profile_text { position: relative; margin-left: 150px; padding-top: 15px; height: 100px; }
 .nav-fixed { position: fixed; top: 0; left: 0; z-index: 10; margin: 0 auto; width: 100%; height: 33px;  background-color: #495867; overflow:hidden;  opacity:0.96;
-	     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=96)"; }
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=96)"; }
 .nav { z-index: 10; margin: 0 auto; width: 100%;  height: 33px;  background-color: #495867; }
 .nav a,.nav-fixed a { display: inline-block; padding: 0 12px 0 12px; text-decoration: none; color: #fcfdff; }
 .nav a:visited,.nav-fixed a:visited { text-decoration: none; color: #fcfdff; }
@@ -71,7 +75,7 @@ div.backtotop { display: none; }
 .cleared { float: none; clear: both; margin: 0; padding: 0; border: none; font-size: 1px; }
 .footer	{ position:relative; width: 100%; border-top: solid 1px #111; background-color: #292f36; text-align:center; }
 dl { float: left; margin: 1em 0 0 0; padding-top: 1em; height: 13em; border: solid 1px #bbb; border-right: none;  text-align: center; background-color: #fcfdff;
-     font-size: 1em; line-height: 2em; }
+ font-size: 1em; line-height: 2em; }
 dl#email { width: 31.4%; }
 dl#phone { width: 29.4%; }
 dl#address { width: 38.6%; border-right: solid 1px #bbb; }
@@ -82,11 +86,11 @@ img { max-width:100%; height: auto; border: 0; -ms-interpolation-mode: bicubic; 
 ul, ol, li { margin-left: 20px; }
 p, ul, ol, dl, pre, code { margin-top: 1.4286em; margin-bottom: 0em; font-size: 1.4em; line-height: 1.4286em; }
 p.large_text, ul.large_text, ol.large_text, dl.large_text { margin-top: 0.9091em; margin-bottom: 0em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-							    font-size: 2.2em; line-height: 1.3636em; }
+ font-size: 2.2em; line-height: 1.3636em; }
 p.large_text img, ul.large_text img, ol.large_text img, dl.large_text img { margin-top: 9.9091em; }
 ul.large_text li, ol.large_text li { margin-top: 0.3846em; }
 p.medium_text, ul.medium_text, ol.medium_text, dl.medium_text { margin-top: 1.1111em; margin-bottom: 0em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-								font-size: 1.4em; line-height: 1.1111em; }
+ font-size: 1.4em; line-height: 1.1111em; }
 p.medium_text img, ul.medium_text img, ol.medium_text img, dl.medium_text img { margin-top: 1.1111em; }
 ul.medium_text li, ol.medium_text li { margin-top: 0.5em; }
 p.small_text, ul.small_text, ol.small_text, dl.small_text { margin-top: 1.6667em; margin-bottom: 0em; font-size: 1.0em; line-height: 1.6667em; }
@@ -95,7 +99,7 @@ ul.small_text li, ol.small_text li { margin-top: 0.8333em; }
 p.tiny_text { margin-top: 1.6667em; margin-bottom: 0em; font-size: 0.688em; line-height: 1.6667em; color: #fcfdff; }
 p.tiny_text { margin-top: 1.6667em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* TABLETS */
+/* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 974px) {
 .profile_container { width: 720px; }
 .nav ul	{ width: 720px; }
@@ -103,7 +107,7 @@ p.tiny_text { margin-top: 1.6667em; font-family: "Helvetica Neue", Helvetica, Ar
 .container_main	{ width: 720px; position: relative; }
 }
 
-/* MOBILE */
+/* Mobiles */
 @media only screen and (max-width: 767px) {
 html body { max-width: 100%; overflow-x: hidden; }
 h1.headertext { font-size: 28px; text-align: center; }
@@ -119,7 +123,7 @@ h1.subheadertext { font-size: 18px; text-align: center; }
 .nav ul:hover, .nav-fixed ul:hover { height: 100%; width: 100%; background-position: top center; border: none; }
 .nav ul:hover li, .nav-fixed ul:hover li { display: block; float: none; margin: 0 0 2px; border-left: none; text-align: center; }
 .nav ul:hover li.menubutton, .nav-fixed ul:hover li.menubutton { display: inline-block; height: 5px; width: 35px; border-bottom: 17px double #61dafb;
-								 border-top: 6px solid #61dafb; content:""; }
+  border-top: 6px solid #61dafb; content:""; }
 .container_main { z-index: 0; width: 90%; }
 a.anchor { display: block; position: relative; visibility: hidden; top: -40px; }
 div.backtotop { display: block; float: right; padding-top: 30px; }
@@ -140,5 +144,5 @@ dl#email dd, dl#phone dd, dl#address dd { margin-top: 0; }
 }
 
 @media only screen and (max-height: 480px) {
-.nav-fixed {display:none;}
+.nav-fixed { display:none; }
 }
