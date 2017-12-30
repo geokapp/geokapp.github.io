@@ -111,15 +111,15 @@ h1.subheadertext { font-size: 18px; text-align: center; }
 .profile_container { width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 .profile_image { margin-left: auto; margin-right: auto; margin-top: 10px; float: none; }
 .profile_text { height: auto; margin: 0; padding-top: 0; text-align: center; float: none;}
-.nav-fixed { display: none; }
-.nav { padding-top: 15px; padding-bottom: 15px; height: auto; width: 100%; margin: 0 auto;  text-align: center; }
-.nav ul { margin: auto; text-align: center; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
-.nav li { display: none; margin: 0; text-align: center; float: none; }
-.nav a { display: block;  text-align: center; }
-.nav ul:hover { height: 100%; width: 100%; background-position: top center; border: none; }
-.nav ul:hover li { display: block; margin: 0 0 2px; border-left: none; }
-.nav ul:hover li.menubutton { display: inline-block; border-bottom: 17px double #61dafb; border-top: 6px solid #61dafb; content:""; height: 5px; width: 35px; }
-.container_main { width: 90%; z-index: 1; }
+.nav-fixed { padding-top: 10px; padding-bottom: 10px; width: 100%; height: auto; position: fixed; top: 0; left: 0; z-index: 10; opacity:1.00; text-align: right; }
+.nav { padding-top: 10px; padding-bottom: 10px; height: auto; width: 100%; margin: 0 auto;  text-align: center; }
+.nav ul, .nav-fixed ul { margin: auto; text-align: center; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
+.nav li, .nav-fixed li { display: none; margin: 0; text-align: center; float: none; }
+.nav a, .nav-fixed a { display: block;  text-align: center; }
+.nav ul:hover, .nav-fixed ul:hover { height: 100%; width: 100%; background-position: top center; border: none; }
+.nav ul:hover li, .nav-fixed ul:hover li { display: block; margin: 0 0 2px; border-left: none; }
+.nav ul:hover li.menubutton, .nav-fixed ul:hover li.menubutton { display: inline-block; border-bottom: 17px double #61dafb; border-top: 6px solid #61dafb; content:""; height: 5px; width: 35px; }
+.container_main { width: 90%; z-index: 0; }
 a.anchor { display: block; position: relative; top: -40px; visibility: hidden; }
 div.backtotop { display: block; float: right; }
 div.backtotop a	{ border: none; display: block; width: 30px; height: 30px; margin-top: 2.2em; background: url(images/arrow_top.png) no-repeat right 0; }
@@ -136,4 +136,8 @@ dl#email, dl#phone, dl#address { width: 95.5%; padding-left: 3%; }
 dt { float: left; width: 22%; padding-right: 3%; font-size: 1.0em; margin-bottom: 0; }
 dd { margin-left: 30%; margin-bottom: 0.5em; }
 dl#email dd, dl#phone dd, dl#address dd { margin-top: 0; }	
+}
+
+@media only screen and (max-height: 480px) {
+.nav-fixed {display:none;}
 }
