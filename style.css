@@ -111,7 +111,7 @@ h1.subheadertext { font-size: 18px; text-align: center; }
 .profile_container { width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 .profile_image { margin-left: auto; margin-right: auto; margin-top: 10px; float: none; }
 .profile_text { height: auto; margin: 0; padding-top: 0; text-align: center; float: none;}
-.nav-fixed { padding-top: 10px; padding-bottom: 10px; width: 100%; height: auto; position: fixed; top: 0; left: 0; z-index: 10; opacity:1.00; text-align: right; }
+.nav-fixed { padding-top: 10px; padding-bottom: 10px; width: 100%; height: auto; position: fixed; top: 0; left: 0; z-index: 10; }
 .nav { padding-top: 10px; padding-bottom: 10px; height: auto; width: 100%; margin: 0 auto;  text-align: center; }
 .nav ul, .nav-fixed ul { margin: auto; text-align: center; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; content:""; height: 5px; width: 35px; }
 .nav li, .nav-fixed li { display: none; margin: 0; text-align: center; float: none; }
