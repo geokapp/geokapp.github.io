@@ -115,21 +115,23 @@ h1.subheadertext { font-size: 18px; text-align: center; }
 .profile_container { margin-left: auto; margin-right: auto; width: 100%; height: auto; }
 .profile_image { float: none; margin-left: auto; margin-right: auto; margin-top: 10px; }
 .profile_text { float: none; margin: 0; padding-top: 0; height: auto; text-align: center; }
-.nav-fixed { padding-top: 10px; padding-bottom: 10px; width: 100%; height: auto; }
+.nav-fixed { padding-top: 10px; padding-bottom: 10px;  margin: auto; width: 100%; height: auto; text-align: center; }
+.nav-fixed ul { display: none; }
 .nav { margin: 0 auto; padding-top: 10px; padding-bottom: 10px; height: auto; width: 100%; text-align: center; }
-.nav ul, .nav-fixed ul { margin: auto; height: 5px; width: 35px; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; text-align: center; content:""; }
-.nav li, .nav-fixed li { display: none; }
-.nav a, .nav-fixed a { display: block;  text-align: center; }
-.nav ul:hover, .nav-fixed ul:hover, .nav ul:active, .nav-fixed ul:active { height: 100%; width: 100%; background-position: top center; border: none; }
-.nav ul:hover li, .nav-fixed ul:hover li, .nav ul:active li, .nav-fixed ul:active li { display: block; float: none; margin: 0 0 2px; border-left: none; text-align: center; }
-.nav ul:hover li.menubutton, .nav-fixed ul:hover li.menubutton, .nav ul:active li.menubutton, .nav-fixed ul:active li.menubutton { display: inline-block; height: 5px;
- width: 35px; border-bottom: 17px double #61dafb; border-top: 6px solid #61dafb; content:""; }
+.nav ul { margin: auto; height: 5px; width: 35px; border-bottom: 17px double #fcfdff; border-top: 6px solid #fcfdff; text-align: center; content:""; }
+.nav li { display: none; }
+.nav a { display: block;  text-align: center; }
+.nav ul:hover, .nav ul:active { height: 100%; width: 100%; background-position: top center; border: none; }
+.nav ul:hover li, .nav ul:active li { display: block; float: none; margin: 0 0 2px; border-left: none; text-align: center; }
+.nav ul:hover li.menubutton, .nav ul:active li.menubutton { display: inline-block; height: 5px; width: 35px; border-bottom: 17px double #61dafb;
+ border-top: 6px solid #61dafb; content:""; }
 .container_main { z-index: 0; width: 90%; }
 a.anchor { display: block; position: relative; visibility: hidden; top: -40px; }
-div.backtotop { display: block; float: right; padding-top: 30px; }
-div.backtotop a	{ display: block; border: none; font-size: 30px; color: #292f36; font-weight: bolder; }
-div.backtotop a:hover { opacity: 0.2; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=20)"; }
-div.backtotop a:visited { color: #292f36; }
+.nav div.backtotop { display: none; }
+.nav-fixed div.backtotop { display: block; float: none; padding-top: 0; }
+.nav-fixed div.backtotop a { display: inline; border: none; font-size: 40px; color: #fcfdff; font-weight: bolder; line-height: 0.5; }
+.nav-fixed div.backtotop a:hover { color: #61dafb; opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; }
+.nav-fixed div.backtotop a:visited { color: #fcfdff; }
 .col_c	{ width:90%; }
 .col_l	{ width:90%; }
 .col_r	{ width:90%; }
@@ -145,4 +147,8 @@ dl#email dd, dl#phone dd, dl#address dd { margin-top: 0; }
 
 @media only screen and (max-height: 480px) {
 .nav-fixed { display:none; }
+div.backtotop { display: block; float: right; padding-top: 35px; }
+div.backtotop a	{ display: block; border: none; font-size: 30px; color: #292f36; font-weight: bolder; }
+div.backtotop a:hover { opacity: 0.2; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=20)"; }
+div.backtotop a:visited { color: #292f36; }
 }
