@@ -129,7 +129,7 @@ h1.subheadertext { font-size: 18px; text-align: center; }
 a.anchor { display: block; position: relative; visibility: hidden; top: -40px; }
 .nav div.backtotop { display: none; }
 .nav-fixed div.backtotop { display: block; float: none; padding-top: 10px; padding-bottom: 10px;  }
-.nav-fixed div.backtotop a { display: inline; border: none; font-size: 30px; color: #fcfdff; font-weight: bolder; }
+.nav-fixed div.backtotop a { display: inline; border: none; color: #fcfdff; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 2em; }
 .nav-fixed div.backtotop a:hover { color: #61dafb; opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; }
 .nav-fixed div.backtotop a:visited { color: #fcfdff; }
 .col_c	{ width:90%; }
