@@ -148,7 +148,8 @@ dl#email dd, dl#phone dd, dl#address dd { margin-top: 0; }
 @media only screen and (max-height: 480px) {
 .nav-fixed { display:none; }
 div.backtotop { display: block; float: right; padding-top: 35px; }
-div.backtotop a	{ display: block; border: none; font-size: 30px; color: #292f36; font-weight: bolder; }
-div.backtotop a:hover { opacity: 0.2; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=20)"; }
+div.backtotop a	{ display: block; border: none; color: #292f36; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.6em;  font-weight: bolder; }
 div.backtotop a:visited { color: #292f36; }
+div.backtotop a:hover { color: #292f36; }
+div.backtotop a:active { color: #61dafb; }
 }
